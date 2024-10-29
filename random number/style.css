@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+#myButton{
+    background-color: rgb(102, 23, 175);
+    color: rgb(228, 215, 215);
+    padding: 20px 30px;
+    cursor: pointer;
+    font-family: verdana ;
+    border-radius: 5px;
+}
+.label{
+    text-align: center;
+    font-family: Times New Roman;
+    color: brown;
+    text-emphasis: yes;
+    font-size: 20px;
+}
+
+
+
+/* .one{
+    text-align: center;
+    font-size:300px;
+    font-weight: bold;
+}
+.two{
+    text-emphasis: none;
+    text-align: center;
+} */
+
+
+

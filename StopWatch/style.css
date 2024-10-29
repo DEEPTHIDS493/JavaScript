@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(192, 190, 188, 0.872);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#myh1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(7, 6, 6);
+    font-style:inherit;
+    text-shadow: 2px 2px 6px rgb(61, 1, 1);
+
+}
+#container{
+    background-color: hsla(0, 20%, 96%, 0.589);
+    flex-direction: column;
+    border: 5px solid rgb(59, 59, 59);
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 7px 7px 8px rgba(23, 22, 22, 0.719);
+    
+}
+#display{
+    font-family: monospace;
+    font-size: 5rem;
+    text-shadow: 4px 4px 5px;
+
+}
+#control button{
+    margin-top: 20px;
+    padding: 13PX 25PX;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+#startbtn{
+    background-color: rgb(4, 179, 4);
+}
+#startbtn:hover{
+    background-color: green;
+}
+#stopbtn{
+    background-color: rgba(252, 57, 57, 0.947);
+}
+#stopbtn:hover{
+    background-color: rgb(228, 2, 2);
+}
+#resetbtn{
+    background-color: rgb(75, 75, 242);
+}
+#resetbtn:hover{
+    background-color: blue;
+}

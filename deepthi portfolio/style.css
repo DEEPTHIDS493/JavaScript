@@ -1,0 +1,86 @@
+.one{
+    background-color: rgb(170, 93, 241);
+    display: flex;
+    padding-bottom:350px;
+    justify-content: space-between; /* This separates navbar and text */
+    align-items: center;
+}
+.navbar {
+   background-color: black;
+   padding: 20px 30px;
+   color: aliceblue;
+   display: flex; 
+}
+.myport{
+    display:inline;
+    font-size: larger;
+    color: blanchedalmond;
+}
+.link{
+    padding-top: 30px;
+    padding-left: 900px;
+    display: inline;
+
+}
+a{
+    color: aliceblue;
+    font-weight: 700;
+}
+a:hover{
+    color: brown;
+}
+.two{
+    padding-left: 10%;
+    padding-top: 200px;
+    padding-right: 5%;
+    color: aliceblue;
+    font-family: Georgia;
+    font-size:20px;
+    font-weight: 550;
+}
+.three #p{
+    color: rgb(28, 1, 1);
+}
+.three #image{
+    
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+.three{
+    padding-top: 12%;
+    padding-right: 10%;
+}
+.aboutme{
+    /* text-align: center; */
+    background-color: bisque;
+    padding-bottom: 100px;
+}
+#about{
+    color: rgb(41, 4, 4);
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: large;
+}
+#me{
+    text-align: center;
+    padding-top: 15%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.myeducation{
+    background-color: rgb(247, 147, 147);
+    padding-bottom: 100px;
+}
+#education{
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Times New Roman;
+    font-weight: 800;
+    font-size: large;
+}
+#myh1{
+    padding-top: 15%;
+    text-align: center;
+}

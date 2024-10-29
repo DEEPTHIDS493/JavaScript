@@ -1,0 +1,22 @@
+#mylable{
+    text-align: center;
+    color :brown;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cambria;
+    
+}
+.one{
+    text-align: center;
+}
+#mybutton{
+    background-color: bisque;
+    cursor: pointer;
+}
+#mytext{
+    color: blueviolet;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(189, 239, 222);
+    padding: 10px 20px;
+}

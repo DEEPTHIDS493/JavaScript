@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-image : url(https://media.istockphoto.com/id/508184291/photo/office-buildings-in-financial-district-la-defense-paris-france.jpg?s=612x612&w=0&k=20&c=xDSwMmBPlTurnYc44-EB9-CXnbC-2HsWICM7Gtl0Gm4=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+#clock{
+    text-align : center;
+    color:rgba(12, 2, 2, 0.902);
+    font-size: 6rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: hwb(30 89% 8% / 0.45);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
