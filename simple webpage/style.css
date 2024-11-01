@@ -144,7 +144,8 @@
   
 }
 .abt{
-  margin-top: 10%;
+  margin-top: 9%;
+  margin-left: 0;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -154,8 +155,12 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800;
   background-color: rgb(247, 91, 91);
+  
 }
-
+.abtcls{
+  display: flex;
+  flex-direction: row;
+}
 
 #fh1{
   color: rgb(251, 246, 246);
@@ -170,8 +175,68 @@
   font-style: oblique;
 }
 #mydiv{
-  margin-top: 10%;
+  margin-top: 9%;
   background-color: rgba(0, 0, 0, 0.829);
   line-height: 1.7;
 }
+
+.product-section {
+  text-align: center;
+  margin: 50px;
+  font-family: 'Cambria', serif;
+}
+
+.product-section h1 {
+  color: darkgreen;
+  font-size: 3rem;
+}
+
+.product-section p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.product-item {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.product-item h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.product-item p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.buy-now {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.buy-now:hover {
+  background-color: darkgreen;
+}
+
 
